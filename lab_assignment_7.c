@@ -24,7 +24,7 @@ void bubbleSort(int arr[], int x)
                 swap++;
 			}
 		}
-     printf("Pass #%d: %d swaps\n", i+1, swap);//displaying the number of swaps in the specific iteration
+     		printf("Pass #%d: %d swaps\n", i+1, swap);//displaying the number of swaps in the specific iteration
 	}
     	
 }
@@ -44,7 +44,7 @@ int main(void){
     int arr[] = {97, 16, 45, 63, 13, 22, 7, 58, 72};
     int n;
 
-    n = sizeof(arr) / sizeof(arr[0]);
+    n = 9;
 
     printf("Before Sort: ");//Checking if array is recognized
     printArray(arr, n);
